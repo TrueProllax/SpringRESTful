@@ -15,7 +15,7 @@ import org.springframework.web.client.RestTemplate;
 //@SpringBootApplication
 public class Application {
     
-    private static String urlAPI = "https://raw.githubusercontent.com/TrueProllax/SpringRESTful/main/books.json";    
+    private static String urlAPI = "https://raw.githubusercontent.com/TrueProllax/SpringRESTful/main/users.json";    
     
     public static void main(String[] args) {
         RestTemplate restTemplate = new RestTemplate();
